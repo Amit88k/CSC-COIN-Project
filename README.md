@@ -1,40 +1,41 @@
-# CSC-COIN-Project
-It is a web based tool where people can upload their creative ideas on the area of their expertise, where other people can rate 
-the ideas and talk about feasibility, implementation and work required. 
+# JP--Ideation
 
-We intend to bring people together to do things together which could solve or create simplest idea which can be implemented in real
-life.  Users : collection to store user records i.e. name, username, password, categories and email.   
+# THE IDEATION TOOL
 
-Posts : collection to share posts which a user has posted once approved by admin. Also store comments related to posts. Embedded 
-doconcept of mongodb.  
+People can add their creative ideas on the area of their interest. Experts can even connect to each other and work together on some idea of some common problem they think need to be solved. 
+Our project idea depends on the productivity, basic knowledge and errors that they may feel about. We intend to bring people 
+together to do things together which could solve or create simplest idea which can be implemented in real life.
 
-AdminPosts : once a user posts an idea it first comes here and admin approves it and then  it goes to posts.   
+## In Scope (Phase I completed)
+•	Registration and Login
+•	Posts (verification, updating, counts, rules, category )
+•	Comment on the posts.
+•	Add categories according to user interest.
+•	Admin can approve or disapprove idea within 7 days.
 
-AdminCategories : The categories which admin can add and user can select from that.
+## Things that can be added (Phase II) 
+•	Forgot Password Implementation
+•	Star Rating ranging 1 to 5
+•	Option of upvote and downvote
+•	Top Rated Ideas on DashBoard first
+•	Filtering of ideas on the basis of past 1 week, 1 month or 6 month
+•	Archives can be save on DataBase to keep a backup.
 
-In scope (Phase 1 completed) Registration and Login Posts (verification, updating, counts, rules, category) comment on posts. Add 
-categories according to user interest.
 
-Softwares and Technologies used 
-Mongodb, nodejs, html,  css, java script, asp.net.
+##Requirement
 
-Steps to run the code:
-As I did in ubantu 
+• Technologies: Node.js
+<br>• Web Languages: HTML, CSS, Bootstrap, JavaScript
+<br>• Database: MongoDB
+<br>• Services: Heroku
 
-1. Download nodejs
-2. Download npm
-3. Download Mangodb
-4. Now, go to the directory where the code is present
-    Write the following commands in terminal
-5.  npm start
-6.  mongo
-7.  use ideation
-8.  db.users.find().pretty();
-9. db.admincategories.find().pretty(); 
-10. db.categories.find().pretty();
-11. db.index.find().pretty();
-12. db.index.find().pretty();
-13. now, on other terminal type the command : start ideation
-14. now, run as localhost:3000/admin/login (in browser for admin to login)
-15. then, run as localhost:3000/user (in browser for user)
+##User Manual/Configuration Document
+
+• Download node.js and configure mongodb database.
+<br>https://nodejs.org/en/download/
+<br>https://www.mongodb.com/download-center
+<br>• The project repository is on the below mention link:
+<br>https://github.com/CSC-ORG/JP--Ideation
+<br>• The project is live on the below mention link:
+<br>http://zirine.herokuapp.com
 
